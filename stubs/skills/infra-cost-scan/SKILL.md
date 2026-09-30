@@ -5,7 +5,7 @@ description: "Stub cue, not installed. Cost smell check for infra and cloud reso
 
 # Infra Cost Scan
 
-> Stub, not installed by the plugin. The real depth is the [`cost-optimization`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/cost-optimization) plugin of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install cost-optimization@libre-devops-grok`.
+> Stub, not installed by the plugin. The real depth is the [`cost-optimization`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/cost-optimization) plugin of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install cost-optimization@LibreDevOps-Grok-Build`.
 
 Find expensive smells, not fake savings theater.
 

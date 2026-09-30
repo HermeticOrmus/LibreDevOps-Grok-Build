@@ -5,7 +5,7 @@ description: "Stub cue, not installed. Review GitOps delivery flow for Grok Buil
 
 # GitOps Flow
 
-> Stub, not installed by the plugin. The real depth is the [`release-management`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/release-management) plugin of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install release-management@libre-devops-grok`.
+> Stub, not installed by the plugin. The real depth is the [`release-management`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/release-management) plugin of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install release-management@LibreDevOps-Grok-Build`.
 
 Desired state in git; cluster follows.
 
