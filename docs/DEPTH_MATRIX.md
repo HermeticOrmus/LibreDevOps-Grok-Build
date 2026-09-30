@@ -23,7 +23,25 @@ Never copy Claude plugin / agent / command totals into this inventory. Upstream 
 
 This repo now: **3 melted skills**, **5 stub skills**, **1 stub agent**.
 
-Dogfood copies of every skill live at `.grok/skills/<name>/SKILL.md` and must match `skills/<name>/SKILL.md`.
+Dogfood copies of every skill live at `.grok/skills/<name>/SKILL.md` and must match their source: `plugins/libre-devops-grok/skills/<name>/SKILL.md` for melted skills, `stubs/skills/<name>/SKILL.md` for stubs. CI checks it.
+
+## v1.0.0: where each row lives
+
+Melted skills install as the `libre-devops-grok` plugin. Stubs stay in `stubs/` and never install; each names the pack plugin that holds the real depth. The 26 pack plugins install from the same marketplace, pinned to one commit of [LibreDevOps-Claude-Code](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code) (see `.grok-plugin/marketplace.json`). They are installed depth, not this repo's inventory.
+
+| ID | Lives at | Installs | Real depth, installed by this marketplace |
+|----|----------|----------|-------------------------------------------|
+| ci-pipeline | `plugins/libre-devops-grok/skills/ci-pipeline/` | yes, in `libre-devops-grok` | this skill |
+| iac-review | `plugins/libre-devops-grok/skills/iac-review/` | yes, in `libre-devops-grok` | this skill |
+| release-checklist | `plugins/libre-devops-grok/skills/release-checklist/` | yes, in `libre-devops-grok` | this skill |
+| container-harden | `stubs/skills/container-harden/` | no | `docker-orchestration` and `container-registry` |
+| observability-basics | `stubs/skills/observability-basics/` | no | `monitoring-observability` |
+| env-secrets-hygiene | `stubs/skills/env-secrets-hygiene/` | no | `secret-management` |
+| infra-cost-scan | `stubs/skills/infra-cost-scan/` | no | `cost-optimization` |
+| gitops-flow | `stubs/skills/gitops-flow/` | no | `release-management` |
+| devops-orchestrator | `stubs/agents/devops-orchestrator.md` | no | a specialist agent in each pack plugin |
+
+The `gitops-flow` row above names `release-management`, not the `configuration-management` source listed in the first table: the pack's GitOps depth (ArgoCD) lives in `release-management` ([LEDGER.md](../LEDGER.md)).
 
 ## Suite
 

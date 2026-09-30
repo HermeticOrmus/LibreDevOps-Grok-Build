@@ -1,0 +1,20 @@
+{
+  "name": "libre-devops-grok",
+  "version": "1.0.0",
+  "description": "Grok-native DevOps review skills: ci-pipeline for CI hygiene and merge gates, iac-review for IaC blast radius and state safety, release-checklist for ship gates and rollback.",
+  "author": {
+    "name": "Diego Bodart",
+    "url": "https://github.com/HermeticOrmus"
+  },
+  "homepage": "https://github.com/HermeticOrmus/LibreDevOps-Grok-Build",
+  "repository": "https://github.com/HermeticOrmus/LibreDevOps-Grok-Build",
+  "license": "MIT",
+  "keywords": [
+    "devops",
+    "ci",
+    "iac",
+    "terraform",
+    "release",
+    "grok-build"
+  ]
+}

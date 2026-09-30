@@ -7,9 +7,9 @@
 
 ## How to use this suite
 
-1. Install skills (see [QUICK_START.md](./QUICK_START.md)).
+1. Install the marketplace (see [QUICK_START.md](./QUICK_START.md)): the `libre-devops-grok` plugin plus the LibreDevOps-Claude-Code plugins you need.
 2. Keep Reality OS as the global doctrine layer.
-3. Use suite skills for infra/CI work; use `AGENTS/devops-orchestrator.md` when a full multi-pillar pass is needed.
+3. Use suite skills for infra/CI work; use `stubs/agents/devops-orchestrator.md` (stub coordinator, not installed) when a full multi-pillar pass is needed.
 4. Pair with [LibreSecOps-Grok-Build](https://github.com/HermeticOrmus/LibreSecOps-Grok-Build) for defensive security reviews.
 
 Project-level `AGENTS.md` in a consumer repo wins for project rules; this file is suite guidance.
@@ -18,7 +18,7 @@ Project-level `AGENTS.md` in a consumer repo wins for project rules; this file i
 
 | Agent | File | Role |
 |-------|------|------|
-| devops-orchestrator | `AGENTS/devops-orchestrator.md` | Coordinates CI, IaC, containers, observability, release into one pass (stub) |
+| devops-orchestrator | `stubs/agents/devops-orchestrator.md` (stub; not installed) | Coordinates CI, IaC, containers, observability, release into one pass (stub) |
 
 ## Liquid Gold
 
