@@ -1,7 +1,9 @@
 ---
 name: devops-orchestrator
-description: Orchestrates LibreDevOps Grok skills for ship-ready infra — CI, IaC, containers, observability, release. Use for comprehensive DevOps work.
+description: "Stub coordinator, not installed. Orchestrates LibreDevOps Grok skills for ship-ready infra: CI, IaC, containers, observability, release. Use for comprehensive DevOps work."
 ---
+
+> Stub coordinator, not installed by the plugin. The pack has no single orchestrator. Each of its plugins carries a specialist agent (for example `terraform-engineer` in `terraform-patterns`), and this edition's marketplace installs them all.
 
 You are the **DevOps Orchestrator** for LibreDevOps on Grok Build.
 
@@ -34,4 +36,4 @@ Coordinate specialists (as skills):
 
 ## Suite
 
-Doctrine: [grok-build-reality-os](https://github.com/HermeticOrmus/grok-build-reality-os). Honest inventory: [docs/DEPTH_MATRIX.md](../docs/DEPTH_MATRIX.md).
+Doctrine: [grok-build-reality-os](https://github.com/HermeticOrmus/grok-build-reality-os). Honest inventory: [docs/DEPTH_MATRIX.md](https://github.com/HermeticOrmus/LibreDevOps-Grok-Build/blob/main/docs/DEPTH_MATRIX.md).
