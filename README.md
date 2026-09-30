@@ -32,9 +32,9 @@ See [QUICK_START.md](./QUICK_START.md) for the marketplace, dogfood, and copy pa
 
 ```bash
 grok plugin marketplace add HermeticOrmus/LibreDevOps-Grok-Build
-grok plugin install libre-devops-grok@libre-devops-grok
+grok plugin install libre-devops-grok@LibreDevOps-Grok-Build
 # Any pack plugin, pinned by commit, for example:
-grok plugin install terraform-patterns@libre-devops-grok
+grok plugin install terraform-patterns@LibreDevOps-Grok-Build
 grok plugin list
 ```
 

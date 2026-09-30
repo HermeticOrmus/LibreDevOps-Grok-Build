@@ -12,7 +12,7 @@ The Grok-native layer of [LibreDevOps-Grok-Build](https://github.com/HermeticOrm
 
 ```bash
 grok plugin marketplace add HermeticOrmus/LibreDevOps-Grok-Build
-grok plugin install libre-devops-grok@libre-devops-grok
+grok plugin install libre-devops-grok@LibreDevOps-Grok-Build
 ```
 
 The same marketplace offers every LibreDevOps-Claude-Code plugin, pinned by commit.

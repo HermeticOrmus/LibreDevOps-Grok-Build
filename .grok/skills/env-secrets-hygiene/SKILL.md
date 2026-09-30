@@ -5,7 +5,7 @@ description: "Stub cue, not installed. Env and secrets hygiene for Grok Build. N
 
 # Env / Secrets Hygiene
 
-> Stub, not installed by the plugin. The real depth is the [`secret-management`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/secret-management) plugin of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install secret-management@libre-devops-grok`.
+> Stub, not installed by the plugin. The real depth is the [`secret-management`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/secret-management) plugin of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install secret-management@LibreDevOps-Grok-Build`.
 
 Find smells; never echo secret values.
 

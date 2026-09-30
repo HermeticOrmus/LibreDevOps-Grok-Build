@@ -5,7 +5,7 @@ description: "Stub cue, not installed. Baseline logs, metrics, and traces for Gr
 
 # Observability Basics
 
-> Stub, not installed by the plugin. The real depth is the [`monitoring-observability`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/monitoring-observability) plugin of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install monitoring-observability@libre-devops-grok`.
+> Stub, not installed by the plugin. The real depth is the [`monitoring-observability`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/monitoring-observability) plugin of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install monitoring-observability@LibreDevOps-Grok-Build`.
 
 See the system without drowning in noise.
 

@@ -5,7 +5,7 @@ description: "Stub cue, not installed. Harden Docker/OCI images defensively for 
 
 # Container Harden
 
-> Stub, not installed by the plugin. The real depth is in the [`docker-orchestration`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/docker-orchestration) and [`container-registry`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/container-registry) plugins of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install docker-orchestration@libre-devops-grok`, `grok plugin install container-registry@libre-devops-grok`.
+> Stub, not installed by the plugin. The real depth is in the [`docker-orchestration`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/docker-orchestration) and [`container-registry`](https://github.com/HermeticOrmus/LibreDevOps-Claude-Code/tree/main/plugins/container-registry) plugins of LibreDevOps-Claude-Code, which this edition's marketplace installs: `grok plugin install docker-orchestration@LibreDevOps-Grok-Build`, `grok plugin install container-registry@LibreDevOps-Grok-Build`.
 
 Defensive image baseline.
 
